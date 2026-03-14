@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About — Suriyaprakash G</title>
+  <link rel="stylesheet" href="styles/about.css"/>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-logo" data-nav>SP.</a>
+    <ul class="nav-links">
+      <li><a href="index.html" data-nav>Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="index.html#projects" data-nav>Projects</a></li>
+      <li><a href="index.html#contact" data-nav>Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <div class="about-hero">
+    <h1>Suriya<span>prakash</span><br/>G.</h1>
+    <p class="subtitle">
+      Final year B.E ECE student at Erode Sengunthar Engineering College,
+      currently interning as a Full Stack Developer at Maventic Innovative Solutions.
+      I bridge the gap between hardware intuition and modern web development.
+    </p>
+    <div class="hero-tags">
+      <span class="hero-tag highlight">Full Stack Developer</span>
+      <span class="hero-tag">B.E ECE — 2026</span>
+      <span class="hero-tag">ESEC, Erode</span>
+      <span class="hero-tag">Maventic Innovative Solutions</span>
+    </div>
+  </div>
+
+  <!-- TIMELINE -->
+  <section id="about-timeline">
+    <div class="reveal">
+      <p class="section-label">Journey</p>
+      <h2 class="section-title">My Story So Far</h2>
+    </div>
+    <div class="timeline reveal" id="timeline"></div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="about-skills">
+    <div class="reveal">
+      <p class="section-label">Skills</p>
+      <h2 class="section-title">What I Work With</h2>
+    </div>
+    <div class="filter-bar reveal">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="frontend">Frontend</button>
+      <button class="filter-btn" data-filter="backend">Backend</button>
+      <button class="filter-btn" data-filter="tools">Tools</button>
+      <button class="filter-btn" data-filter="core">Core / ECE</button>
+    </div>
+    <div class="skills-grid reveal" id="skillsContainer"></div>
+  </section>
+
+  <footer>
+    <p>© 2026 <span>Suriyaprakash G</span>. All rights reserved.</p>
+    <p>Built with <span>TypeScript</span> & VS Code</p>
+  </footer>
+
+  <script type="module" src="dist/about.js"></script>
+</body>
+</html>
+gi
